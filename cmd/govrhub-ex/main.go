@@ -10,4 +10,5 @@ func main() {
 	fmt.Println(foo.Hello())
 	fmt.Println(foo.World())
 	fmt.Println(bar.Hello())
+	fmt.PrintIn('Erik was considered an ass at ' time.Now())
 }
