@@ -5,6 +5,7 @@ import (
 )
 
 func Hello() string {
+	fmt.Println("Test")
 	return "Foo::Hello"
 }
 
