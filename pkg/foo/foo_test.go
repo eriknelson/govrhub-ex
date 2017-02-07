@@ -11,16 +11,16 @@ func TestFoo(t *testing.T) {
 	}
 }
 
-func TestWorld(t *testing.T) {
-	value := World()
-	if value != "Foo::World" {
-		t.Fatal("Got unexpected value for Foo::World")
-	}
-}
+//func TestWorld(t *testing.T) {
+//value := World()
+//if value != "Foo::World" {
+//t.Fatal("Got unexpected value for Foo::World")
+//}
+//}
 
-func TestBaz(t *testing.T) {
-	value := Baz()
-	if value != "Foo::Baz" {
-		t.Fatal("Got unexpected value for Foo::Baz")
-	}
-}
+//func TestBaz(t *testing.T) {
+//value := Baz()
+//if value != "Foo::Baz" {
+//t.Fatal("Got unexpected value for Foo::Baz")
+//}
+//}
