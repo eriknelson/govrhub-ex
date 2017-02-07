@@ -10,6 +10,5 @@ func Hello() string {
 }
 
 func World() string {
-	fmt.Println("Hello")
-	return "Foo:World"
+	return "Foo::World"
 }
