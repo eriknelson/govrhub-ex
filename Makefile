@@ -9,6 +9,6 @@ clean:
 	@rm -f ${GOPATH}/bin/govrhub-ex
 
 test:
-	go test ./pkg/... -v -covermode=count
+	go test ./pkg/... -v -cover
 
 .PHONY: run clean test
